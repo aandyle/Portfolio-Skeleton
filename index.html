@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Andy Le</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+<body>
+
+  <div class="main">
+    <div class="top">
+      <div class="row">
+        <div class="one-third column">
+          <img src="images/andylogo.jpg" alt="logo" class="u-max-full-width" style="height:80px;">
+        </div>
+        <div class="two-thirds column menu"><strong>
+          <a class="menu-item" href="#about">About</a>
+          <a class="menu-item" href="#about">Projects</a>
+          <a class="menu-item" href="#about">Languages</a>
+          <a class="menu-item-last" href="#about">Contact</a></strong>
+        </div>
+      </div>
+    </div>
+    <div class="bot">
+      <h1>Andy Le</h1>
+      <h5>SYSTEMS ANALYST STUDENT</h5>
+      <h6>SHERIDAN COLLEGE</h6>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Basic Page</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- smooth scrolling -->
+  <script type="text/javascript">
+    $('.nav-link').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 800);
+    });
+    // modal on load
+    $("#construction").modal()
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.main {
+  height: 100vh;
+  background-image: url('../images/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #FFFFFF;
+  /* border: 3px solid #73AD21; */
+}
+
+.bot {
+  color: white;
+  padding-top: 50vh;
+  padding-left: 10vw;
+}
+
+/* keep elements inside containers */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* menu bar buttons */
+.menu {
+  padding-top: 30px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* spacing between menu buttons */
+.menu-item {
+  padding-right: 20px;
+}
+
+.menu-item-last {
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+}

@@ -12,6 +12,7 @@
   width: 100vw;
   background-color: #FFFFFF;
   /* border: 3px solid #73AD21; */
+  z-index: 1;
 }
 
 .bot {
@@ -37,13 +38,41 @@
 /* spacing between menu buttons */
 .menu-item {
   padding-right: 20px;
+  text-decoration: none;
+  color: black !important;
 }
 
 .menu-item-last {
   padding-right: 40px;
-}
-
-a {
   text-decoration: none;
   color: black !important;
+}
+
+.no-style-link {
+  text-decoration: none;
+  color: black !important;
+}
+
+.bitmoji {
+  max-width: 200px;
+  margin-top: -70px;
+}
+
+.spacer {
+  padding-top: 15vh;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+.img {
+  max-width: 50%;
+  /* margin-left: auto;
+  margin-right: auto;
+  display: block; */
+}
+
+button:disabled:hover {
+  text-decoration: none !important;
 }

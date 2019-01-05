@@ -1,6 +1,6 @@
 .main {
   height: 100vh;
-  background-image: url('../images/banner.jpg');
+  background-image: url('../images/IMG_5644-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,6 +73,16 @@
   display: block; */
 }
 
-button:disabled:hover {
+/* button:disabled:hover {
   text-decoration: none !important;
 }
+
+.button-primary {
+  background-color: #be1a2a !important;
+  border-color: #9b1220 !important;
+}
+
+.button-primary:hover {
+  background-color: #9b1220 !important;
+  border-color: #9b1220 !important;
+} */
